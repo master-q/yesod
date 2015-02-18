@@ -477,6 +477,7 @@ import Yesod.Core.Types      as Import (loggerSet)
 import Yesod.Default.Config2 as Import
 
 {-# START_FILE Model.hs #-}
+{-# LANGUAGE TypeSynonymInstances #-}
 module Model where
 
 import ClassyPrelude.Yesod
